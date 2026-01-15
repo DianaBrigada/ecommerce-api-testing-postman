@@ -1,0 +1,28 @@
+# Test Plan – Ecommerce API Mock
+
+## Objective
+Validate the correct behavior of a basic e-commerce API flow using Postman Mock Server.
+
+## Scope
+- POST /auth/login
+- GET /products
+- POST /cart/items
+- GET /cart/{cartId}
+- POST /orders
+- POST /orders/{orderId}/pay
+- GET /orders/{orderId}
+
+## Test Types
+- Functional testing
+- End-to-end flow testing
+- Response validation
+- Variable handling in Postman
+
+## Entry Criteria
+- Postman collection imported
+- Mock Server URL configured
+
+## Exit Criteria
+- All endpoints return expected status codes
+- Variables are correctly stored and reused
+- No blocking errors in the flow
